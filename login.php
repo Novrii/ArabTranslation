@@ -56,7 +56,7 @@
 
                 </div>
                 <div class="input-group">
-<!-- nim masih teks -->
+                <!-- nim masih teks -->
                   <?php if (isset($_GET["kosong"])): ?>
                     <input type="text" class="form-control" name="nim" style="border-color: red;" />
                     <label>NIM </label>
@@ -80,7 +80,7 @@
 
                 </div>
                 <div class="input-group">
-<!-- email masih teks -->
+                <!-- email masih teks -->
                   <?php if (isset($_GET["kosong"])): ?>
                     <input type="text" class="form-control" name="email" style="border-color: red;" />
                     <label>E-mail </label>
@@ -180,22 +180,19 @@
                     <input type="password" class="form-control" name="password"/>
                     <label >Password</label>
                   <?php endif; ?>
-
+              <a href="#" style="color: grey; margin-top: 7px; font-size: 10px;">Lupa Password ?</a>
               </div>
 
               <a href="login.php?to=daftar">Daftar</a>
               <button name="masuk" type="submit">Masuk</button>
+              
             </form>
             <?php
               }
             ?>
 
         </div>
-
-
-
-
-
+        
      <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
     <!-- JQUERY SCRIPTS -->
     <script src="JavaScript/js/jquery-1.10.2.js"></script>
