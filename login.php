@@ -164,9 +164,8 @@
 
                 <?php endif; ?>
 
-
               </div>
-              <div class="input-group">
+              <div class="input-group" style="margin-bottom: 70px;">
                   <!-- <i class="fas fa-key"></i> -->
                   <?php if (isset($_GET["kosong"])): ?>
                     <input type="password" class="form-control" name="password" style="border-color: red;"/>
@@ -180,10 +179,10 @@
                     <input type="password" class="form-control" name="password"/>
                     <label >Password</label>
                   <?php endif; ?>
-              <a href="#" style="color: grey; margin-top: 7px; font-size: 10px;">Lupa Password ?</a>
+              <a href="#" style="color: grey; margin-top: 10px; font-size: 10px;">Lupa Password ?</a>
               </div>
 
-              <a href="login.php?to=daftar">Daftar</a>
+              <a href="login.php?to=daftar" style="margin-top: 7px;">Daftar</a>
               <button name="masuk" type="submit">Masuk</button>
               
             </form>
